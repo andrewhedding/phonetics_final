@@ -1,0 +1,31 @@
+\documentclass[12pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{tipa}
+\usepackage{phonetic}
+\usepackage{pifont}
+\usepackage{arydshln}
+\usepackage{rotating}
+\usepackage{array}
+\usepackage[table]{xcolor}
+\usepackage[applemac, utf8]{inputenc}
+\usepackage{tikz}
+\usetikzlibrary{arrows,automata}
+\usepackage{enumerate}
+\usepackage{textgreek}
+\newcommand{\hand}{\ding{43}}
+\usepackage{gb4e}
+\usepackage{qtree}
+\usepackage{ragged2e}
+\usepackage{multicol}
+\usepackage{soul}
+\usepackage{tikz-qtree-compat}
+\tikzset{every tree node/.style={align=center, anchor=north}}
+\usetikzlibrary{positioning}
+\usetikzlibrary{arrows,automata}
+\usepackage{natbib}
+\bibliographystyle{apa}
+\title{Phonetics Final Paper}
+\author{Lisa Hofmann and Andrew Hedding}
+\begin{document}
+\maketitle
+\end{document}
