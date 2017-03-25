@@ -7,7 +7,7 @@
 \usepackage{rotating}
 \usepackage{array}
 \usepackage[table]{xcolor}
-\usepackage[applemac, utf8]{inputenc}
+% \usepackage[applemac, utf8]{inputenc}
 \usepackage{tikz}
 \usetikzlibrary{arrows,automata}
 \usepackage{enumerate}
@@ -22,15 +22,15 @@
 \tikzset{every tree node/.style={align=center, anchor=north}}
 \usetikzlibrary{positioning}
 \usetikzlibrary{arrows,automata}
-\usepackage{natbib}
-\bibliographystyle{apa}
+\usepackage[round]{natbib}
+% \bibliographystyle{apa}
 \title{Phonetics Final Paper}
-\author{Lisa Hofmann and Andrew Hedding}
+\author{Andrew Hedding and Lisa Hofmann}
 \begin{document}
 \maketitle
 \section{Introduction}
 
-In a recent paper, Sande and Hedding (2017) argue that Amharic, a Semitic language spoken in Ethiopia, provides evidence to support a particular prediction of Moraic Theory. Specifically, they point to two phonological processes in the language---reduplication and stress assignment---which demonstrate that geminate codas are underlyingly moraic, while singleton codas are not. 
+In a recent paper, \cite{sande-hedding14} argue that Amharic, a Semitic language spoken in Ethiopia, provides evidence to support a particular prediction of Moraic Theory. Specifically, they point to two phonological processes in the language---reduplication and stress assignment---which demonstrate that geminate codas are underlyingly moraic, while singleton codas are not. 
 
 Moraic Theory hypothesizes that all geminates will contribute weight to syllables. Singleton codas create heavy syllables in some languages when Weight-By-Position is activated. Thus the theory predicts that there should be languages where only geminate codas create a heavy syllable. Any language that has geminates, but where Weight-By-Position is inactive, should display that pattern. Sande and Hedding argue that Amharic is such a language based on two phonological processes. First, reduplication on adjectives to form plurals only targets words with geminates. For example:
 
@@ -59,16 +59,16 @@ Second, they claim that syllables closed by a geminate are always stressed. They
 
 The aim of the present paper is to scrutinize the hypotheses of Sande and Hedding, using phonetic analysis to test their central claims. Specifically, we use recordings of reduplicated adjectives to test the relative length of the geminate and singleton consonant, and we use three well-known correlates of stress to determine whether the syllable closed by a geminate displays typical patterns associated with stress. In their paper, Sande and Hedding acknowledge that their data on geminates and stress patterns were mostly analyzed impressionistically, although they did check a few examples using Praat. This paper seeks to verify their analysis in a more systematic way, using phonetic measurements. 
 
-The results of the present analysis clearly confirm that all test words that underwent reduplication had geminate consonants, when compared to the reduplicated singleton. The results don't clearly support, however, the claim that all syllables closed by a geminate are stressed. Data was gathered on three known cross-linguistic correlates of stress---duration, pitch, and intensity. The syllables predicted to be stressed by Sande and Hedding did not, on average, have longer durations or higher pitch, nor did they have a higher mean intensity. 
+The results of the present analysis clearly confirm that all test words that underwent reduplication had geminate consonants, when compared to the reduplicated singleton. The results don't clearly support, however, the claim that all syllables closed by a geminate are stressed. Data was gathered on three known cross-linguistic correlates of stress---duration, pitch, and intensity (cf. \cite{fox2002}). The syllables predicted to be stressed by Sande and Hedding did not, on average, have longer durations or higher pitch, nor did they have a higher mean intensity. 
 
 At this early stage, it seems one of the hypotheses of Sande and Hedding is not clearly supported by the phonetic evidence. This study contains a small amount of data, however, from only two speakers. In order to determine more conclusively whether the the stress pattern in Amharic is linked to the presence of geminates, more data must be collected from a wider variety of words and contexts, and it must be put through more sophisticated statistical analysis.
 
 \section{Methodology}
 
-Recordings were made of two native Amharic speakers, one female and one male, saying a series of adjectives that can grammatically undergo reduplication. They each recorded  8 and 9 words, respectively, 5 of which were identical to a word that the other had recorded, as well as several unique words each. This created a total of 15 total test words. All words selected were three syllables long, and they had the same basic syllable structure---(C)V.CVG.GV(C)---where the second syllable is predicted to be stressed due to the fact that it is closed by a geminate. One word---\emph{\textipa{wufaffram}}---had an addition consonant at the beginning of the final syllable. This was analyzed as part of a complex onset with the preceding geminate. All recordings are of the reduplicated form of the word.
+Recordings were made of two native Amharic speakers, one female and one male, saying a series of adjectives that can grammatically undergo reduplication. They each recorded  8 and 9 words, respectively, 5 of which were identical to a word that the other had recorded, as well as several unique words each. This created a total of 15 total test words, which are given in table \textbf{\ref{tab:words}}. All words selected were three syllables long, and they had the same basic syllable structure---(C)V.CVG.GV(C)---where the second syllable is predicted to be stressed due to the fact that it is closed by a geminate. One word---\emph{\textipa{wufaffram}}---had an addition consonant at the beginning of the final syllable. This was analyzed as part of a complex onset with the preceding geminate. All recordings are of the reduplicated form of the word.
 
-\begin{exe}
-\ex{Recorded Words} \label{}
+\begin{table}[h]
+\caption{Recorded words by subject. The items that differed by speaker are highlighted in boldface \label{tab:words}}
 \begin{center} \renewcommand*\arraystretch{1.2}
 \scalebox{1}[1]{\begin{tabular}[t]{|rrl|c|} \hline
 \multicolumn{3}{|c|}{\textbf{Male Speaker}} & \textbf{Female speaker} \\[0.5ex]
@@ -81,9 +81,20 @@ Recordings were made of two native Amharic speakers, one female and one male, sa
 \hline & \textbf{\textipa{ka\texttoptiebar{\textteshlig}a\texttoptiebar{\textteshlig}\texttoptiebar{\textteshlig}\textsyllabic{n}}} & & \textbf{\textipa{wufaffram}} \\
 \hline & \textbf{\textipa{safaffi}} & & \\
 \hline \end{tabular}} \renewcommand*\arraystretch{1} \end{center}
-\end{exe}
+\end{table}
 
+
+Recordings were annotated and analyzed using Praat. Words were split into segments and syllables in order to be measured. An example annotation is given in figure \textbf{\ref{fig:annotate}}. Words were syllabified under the assumption that onsets are cross-linguistically preferred over codas, thus any consonant that could be either a coda or an onset was analyzed as an onset. Because geminates are argued to function as both the coda of one syllable and the onset of the following syllable, geminates were split in half when assigned to syllables.
+
+<<<<<<< HEAD
 Recordings were annotated and analyzed using Praat. Words were split into segments and syllables in order to be measured. An example annotation is given in Figure (\ref{annotation}):
+=======
+\begin{figure}[h]
+	\centering
+	\caption{Example annotation in Praat \label{fig:annotate}}
+	\includegraphics[width=.8\textwidth]{exann.png}
+\end{figure}
+>>>>>>> origin/master
 
 \begin{figure}[ht!]
 \center
@@ -92,54 +103,65 @@ Recordings were annotated and analyzed using Praat. Words were split into segmen
 \end{figure}
 
 
-Words were syllabified under the assumption that onsets are cross-linguistically preferred over codas, thus any consonant that could be either a coda or an onset was analyzed as an onset. Because geminates are argued to function as both the coda of one syllable and the onset of the following syllable, geminates were split in half when assigned to syllables. 
-
 In order to test the hypothesis that words with geminates undergo reduplication, we compared the duration of the reduplicated consonant and the base consonant. Using Praat, the mean pitch in Hz and the mean intensity in dB of each syllable was calculated. Additionally, the duration of each syllable was measured, as well as the duration of each vowel. 
 
 As an additional test, recordings of the female speaker were presented to the male speaker so he could judge the stress pattern impressionistically. Unfortunately the results of this test were inconclusive. The speaker consistently said that none of the syllables was stressed or more prominent than the others. The only syllable that he believed was stressed was the final syllable of \emph{\textipa{d\textepsilon mammak'}}. As that word has a final ejective consonant, it is likely that he associated the burst of energy that accompanies ejectives as prominence. The speaker said that changing the stress would not affect the meaning of the words, showing that he may have interpreted `stress' as lexical stress. This seems to indicate that, at least for this speaker, words do not have an intuitively clear stress pattern in the language. We believe a more thorough study with more participants and clearer instructions about how to determine stress may be necessary to draw conclusions about how native speakers view the stress pattern of their language. 
 
 \section{Results}
-\subsection{Geminates}
+\subsection{Geminates and singletons in reduplication contexts}
 
-\begin{exe}
-\ex{Consonant Duration of Male Speaker in seconds (rounded to 4 digits)} \label{gemmale}
-\begin{center} \renewcommand*\arraystretch{1.2}
-\scalebox{1}[1]{\begin{tabular}[t]{|rrl|c|c|} \hline
-\multicolumn{3}{|c|}{\textbf{Word}} & \textbf{Singleton Duration} & \textbf{Geminate Duration} \\[0.5ex]
-\hline  \textipa{a\texttoptiebar{\textteshlig}a\texttoptiebar{\textteshlig}\texttoptiebar{\textteshlig}\textbari r} & & & 0.074 & 0.177  \\
-\hline  \textipa{adaddis} & & & 0.033 & 0.149  \\
-\hline  \textipa{d\textepsilon mammak'} & & & 0.052 & 0.123 \\
-\hline 	\textipa{ka\texttoptiebar{\textteshlig}a\texttoptiebar{\textteshlig}\texttoptiebar{\textteshlig}\textsyllabic{n}} & & & 0.041 & 0.169 \\
-\hline  \textipa{r\textepsilon\texttoptiebar{\textdyoghlig}a\texttoptiebar{\textdyoghlig}\texttoptiebar{\textdyoghlig}\textbari m} & & & 0.064 & 0.175 \\
-\hline  \textipa{safaffi} & & & 0.077 & 0.158 \\
-\hline  \textipa{talallak'} & & & 0.039 & 0.108 \\
-\hline  \textipa{tananna\textesh} & & & 0.039 & 0.097 \\
-\hline  \textbf{Mean Duration:} & & & \textbf{0.052 sec.} & \textbf{0.145 sec.} \\
-\hline \end{tabular}} \renewcommand*\arraystretch{1} \end{center}
-\end{exe}
+Sande and Hedding (2017) argue that the reduplicated adjectives involve a geminate in the reduplicant-base, whereas only a singleton consonant surfaces as part of the reduplicant. The phonetic plausibility of this analysis was tested by comparing the duration of the consonants analyzed as geminates to the duration of the consonants that are the result of the reduplication process.
 
-\begin{exe}
-\ex{Consonant Duration of Female Speaker in seconds (rounded to 4 digits)} \label{gemfemale}
-\begin{center} \renewcommand*\arraystretch{1.2}
-\scalebox{1}[1]{\begin{tabular}[t]{|rrl|c|c|} \hline
-\multicolumn{3}{|c|}{Word} & \textbf{Singleton Duration} & \textbf{Geminate Duration} \\[0.5ex]
-\hline  \textipa{a\texttoptiebar{\textteshlig}a\texttoptiebar{\textteshlig}\texttoptiebar{\textteshlig}\textbari r} & & & 0.045 & 0.185  \\
-\hline  \textipa{d\textepsilon mammak'} & & & 0.113 & 0.169  \\
-\hline  \textipa{hajajjal} & & & 0.115 & 0.151 \\
-\hline  \textipa{r\textepsilon\texttoptiebar{\textdyoghlig}a\texttoptiebar{\textdyoghlig}\texttoptiebar{\textdyoghlig}\textbari m} & & & 0.093 & 0.189 \\
-\hline  \textipa{talallak'} & & & 0.057 & 0.131 \\
-\hline  \textipa{tananna\textesh} & & & 0.048 & 0.159 \\
-\hline  \textipa{wufaffram} & & & 0.082 & 0.111 \\
-\hline  \textbf{Mean Duration:} & & & \textbf{0.079 sec.} & \textbf{0.156 sec.} \\
-\hline \end{tabular}} \renewcommand*\arraystretch{1} \end{center}
-\end{exe}
+The comparison across the two kinds of consonants was made by taking the mean duration of each group and comparing them. The consonant durations and mean consonant durations across base/reduplicant pairs by speaker are given in table \textbf{\ref{gemfemale}} for the female speaker and in table \textbf{\ref{gemmale}} for the male speaker.
 
-\begin{itemize}
-\item Can we prove that geminates are distinct from singletons?
-\item Each token is predicted to have a geminate and an identical singleton. Measure the duration of each to demonstrate that geminates are longer. 	
-\end{itemize}
+\begin{table}[h]
+	\caption{Consonant Duration and mean consonant duration of female Speaker in seconds (rounded to 4 digits) \label{gemfemale}}
+	\centering
+	\scalebox{1}[1]{\begin{tabular}[t]{|rrl|c|c|} \hline
+		\multicolumn{3}{|c|}{Word} & \textbf{Singleton Duration} & \textbf{Geminate Duration} \\[0.5ex]
+		\hline  \textipa{a\texttoptiebar{\textteshlig}a\texttoptiebar{\textteshlig}\texttoptiebar{\textteshlig}\textbari r} & & & 0.045 & 0.185  \\
+		\hline  \textipa{d\textepsilon mammak'} & & & 0.113 & 0.169  \\
+		\hline  \textipa{hajajjal} & & & 0.115 & 0.151 \\
+		\hline  \textipa{r\textepsilon\texttoptiebar{\textdyoghlig}a\texttoptiebar{\textdyoghlig}\texttoptiebar{\textdyoghlig}\textbari m} & & & 0.093 & 0.189 \\
+		\hline  \textipa{talallak'} & & & 0.057 & 0.131 \\
+		\hline  \textipa{tananna\textesh} & & & 0.048 & 0.159 \\
+		\hline  \textipa{wufaffram} & & & 0.082 & 0.111 \\
+		\hline  \textbf{Mean Duration:} & & & \textbf{0.079 sec.} & \textbf{0.156 sec.} \\
+		\hline
+		\end{tabular}} \renewcommand*\arraystretch{1} 
+\end{table}
+
+
+\begin{table}[h]
+	\caption{Consonant Duration and mean consonant duration of male Speaker in seconds (rounded to 4 digits) \label{gemmale}}
+	\centering
+	 \renewcommand*\arraystretch{1.2}
+		\scalebox{1}[1]{\begin{tabular}[t]{|rrl|c|c|} \hline
+		\multicolumn{3}{|c|}{\textbf{Word}} & \textbf{Singleton Duration} & \textbf{Geminate Duration} \\[0.5ex]
+		\hline  \textipa{a\texttoptiebar{\textteshlig}a\texttoptiebar{\textteshlig}\texttoptiebar{\textteshlig}\textbari r} & & & 0.074 & 0.177  \\
+		\hline  \textipa{adaddis} & & & 0.033 & 0.149  \\
+		\hline  \textipa{d\textepsilon mammak'} & & & 0.052 & 0.123 \\
+		\hline 	\textipa{ka\texttoptiebar{\textteshlig}a\texttoptiebar{\textteshlig}\texttoptiebar{\textteshlig}\textsyllabic{n}} & & & 0.041 & 0.169 \\
+		\hline  \textipa{r\textepsilon\texttoptiebar{\textdyoghlig}a\texttoptiebar{\textdyoghlig}\texttoptiebar{\textdyoghlig}\textbari m} & & & 0.064 & 0.175 \\
+		\hline  \textipa{safaffi} & & & 0.077 & 0.158 \\
+		\hline  \textipa{talallak'} & & & 0.039 & 0.108 \\
+		\hline  \textipa{tananna\textesh} & & & 0.039 & 0.097 \\
+		\hline  \textbf{Mean Duration:} & & & \textbf{0.052 sec.} & \textbf{0.145 sec.} \\
+		\hline \end{tabular}} \renewcommand*\arraystretch{1}
+\end{table}
+
+Due to the reduplication process, each token is predicted to have a geminate consonant and a singleton consonant of the same features. If the assumptions made in Sande and Hedding (2017) are correct, there should be a noticeable different in consonant duration between the geminate consonants in the base and the singleton consonants in the reduplicant. The duration measures presented in tables \textbf{\ref{gemfemale}} and \textbf{\ref{gemmale}} show that the duration of both kinds of consonants are different in the expected way: Table \textbf{\ref{gemfemale}} illustrates that the reduplicated consonants in adjective reduplication are on average around half as long as the consonants which are proposed to be underlying geminates. The results presented in \textbf{\ref{gemmale}} are even more drastic: here, the geminate consonants are more than half as long on average as their correlates in the reduplication.
+
+\subsubsection{Summary}
+
+The results presented in this subsection suggest that, in fact, there is a significant length difference between Amharic geminate consonants and their reduplicant correlates. This observation confirms the analytical generalization in Sande and Hedding (2017) that in the process of Amharic adjectival reduplication, which targets only geminates, the consonant created by reduplication will be a singleton consonant.
+
+
 
 \subsection{Stress}
+
+The assumptions that Sande and Hedding (2017) make about Amharic stress are tested were tested as well. Sande and Hedding (2014) note that Amharic stress is not well described and 
+
 
 \subsubsection{Intensity}
 
@@ -282,7 +304,16 @@ As an additional test, recordings of the female speaker were presented to the ma
 
 \section{Discussion}
 
+\begin{itemize}
+	\item duration data seems clear: in the reduplication site, a singleton surfaces, although the reduplicated segments are copied from a part of the base that includes a geminate consonant
+
+\end{itemize}
+
 \section{Conclusion}
 
-%\bibliography{phonetics_bib}
+
+
+\bibliographystyle{plainnat}
+\bibliography{phonetics}
+
 \end{document}
