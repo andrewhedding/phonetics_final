@@ -1,33 +1,32 @@
-\documentclass[12pt]{article}
-\usepackage[margin=1in]{geometry}
+
+
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+
+
+\documentclass[12pt]{scrartcl}
+
 \usepackage{tipa}
-\usepackage{phonetic}
-\usepackage{pifont}
-\usepackage{arydshln}
-\usepackage{rotating}
-\usepackage{array}
-\usepackage[table]{xcolor}
-% \usepackage[applemac, utf8]{inputenc}
-\usepackage{tikz}
-\usetikzlibrary{arrows,automata}
-\usepackage{enumerate}
-\usepackage{textgreek}
-\newcommand{\hand}{\ding{43}}
-\usepackage{gb4e}
-\usepackage{qtree}
-\usepackage{ragged2e}
-\usepackage{multicol}
-\usepackage{soul}
-\usepackage{tikz-qtree-compat}
-\tikzset{every tree node/.style={align=center, anchor=north}}
-\usetikzlibrary{positioning}
-\usetikzlibrary{arrows,automata}
+\usepackage{xunicode,xltxtra, polyglossia}
+\usepackage{fontspec} 
 \usepackage[round]{natbib}
-% \bibliographystyle{apa}
-\title{Amharic Geminates and the search for stress}
-% \subtitle{Phonetics Final Paper}
+\DeclareTextCommandDefault{\nobreakspace}{\leavevmode\nobreak\ } 
+
+\usepackage{array}
+\usepackage{gb4e}
+
+
+\setmainfont[Ligatures={Common},ItalicFont = Linux Libertine O Italic]{Linux Libertine O}
+\setsansfont[Scale=MatchLowercase,Mapping=tex-text]{Optima}
+
+
+
+\title{Amharic Geminates and a potential relation to stress}
+\subtitle{Phonetics Final Paper}
 \author{Andrew Hedding and Lisa Hofmann}
 \begin{document}
+\renewcommand\textipa[1]{{\fontfamily{cmr}\tipaencoding #1}}
+
 \maketitle
 \section{Introduction}
 
@@ -350,45 +349,30 @@ Like the data on intensity and pitch, the duration data also is inconclusive. It
 
 \section{Discussion}
 
-The measurements of the Amharic data are conclusive of the geminate/singleton distinction assumed in 
+The measurements of the Amharic data confirm the geminate/singleton distinction assumed in \cite{sande2017}. The segement duration data presented in section \textbf{3.1} seems clear: in the reduplication site, a singleton surfaces, although the reduplicated segments are copied from a part of the base that includes a geminate consonant. This assumption is corroborated by duration data.
 
-\begin{itemize}
-	\item The segement duration data seems clear: in the reduplication site, a singleton surfaces, although the reduplicated segments are copied from a part of the base that includes a geminate consonant
+The measurements presented in section \textbf{3.2} are inconclusive with respect to the assumed stress correlates. There was no correlation found between what \cite{sande2017} assumed to be stressed/unstressed syllables and the tested possible phonetic correlates of stress. In most of the data, the last syllable not as loud as the other ones. This might be an indicator of the metrical structure: potentially, the last syllable remains unparsed. In most of the data, the last syllable has higher pitch than the other ones. This might be an indicator of prosodic phrasing. A hypothesis that might best be investigated more by regarding the test items in the context of full sentences.
 
-	\item stress data is not clear: no correlation found between what \cite{sande-hedding14} assumed to be stressed/unstressed syllables and the tested possible phonetic correlates of stress
+The study presented in this paper is very limited. On the one hand it is limited in terms of data: It compared only trisyllabic words, in which the reduplicated segment is the onset of the second syllable and the geminate is between the second and third syllable. On the other hand it is limited in terms of evaluation method: It only compares the means of the syllables in first, second and third position of the considered adjectives. If there are stress effects in Amharic due to other factors that are not considered in this data, they would just be glossed over by taking the mean.
 
-	\item in most of the data, the last syllable not as loud as the other ones: might be an indicator of the metrical structure: potentially, the last syllable remains unparsed
+However, since the geminates are in the same position in all the considered data, if one of the considered phonetic features should correlate with phonological stress AND stress should correlate with prosodic weight, we should observe an effect.
 
-	\item In most of the data, the last syllable has higher pitch than the other ones. This might be an indicator of prosodic phrasing. A hypothesis that might best be investigated more by regarding the test items in the context of full sentences.
+A caveat is in order here: The taken measurements are just the mean of the considered dimensions (intensity, pitch and duration) through the timecourse of the whole syllables. Intonational landmarks that might correlate to stress might potentially better measured in terms of extrema than averages. A better way to measure this in some future studies might be looking at pitch maxima or minima as well as intensity maxima. Also, we took the mean value across all the syllables without accounting for standard deviation and outliers. It also might be worth doing some more sophisticated statistical analysis and filtering out outliers to test for a correlation of the suggested phonetic dimensions and stress.
 
-	\item The study presented in this paper is very limited. On the one hand it is limited in terms of data: It compared only trisyllabic words, in which the reduplicated segment is the onset of the second syllable and the geminate is between the second and third syllable. On the other hand it is limited in terms of evaluation method: It only compares 
-
-	\item If there are stress effects in Amharic due to other factors that are not considered in this data, it would just be glossed over. 
-
-	\item However, since the geminates are in the same position in all the considered data, if one of the considered phonetic features should correlate with phonological stress AND stress should correlate with prosodic weight, we should observe an effect. 
-
-	\item One caveat is in order here: The taken measurements are just the mean of the considered dimensions (intensity, pitch and duration) through the timecourse of the whole syllables. Intonational landmarks that might correlate to stress might potentially better measured in terms of extrema than averages. A better way to measure this in some future studies might be looking at pitch maxima or minima as well as intensity maxima. Also, we took the mean value across all the syllables without accounting for standard deviation and outliers. It also might be worth doing some more sophisticated statistical analysis and filtering out outliers to test for a correlation of the suggested phonetic dimensions and stress.
-
-	\item Therefore, in order to actually find possible correlates of Amharic stress, a more encompassing study would have to be run. It would also be good to include different kinds of data, involving syllables that are in different positions in words of different lengths. The data would then optimally be statistically analyzed to look for a correlation of any of the stress manifestations $\{$intensity, pitch, duration$\}$ to any of the factors $\{$position in the word, coda type$\}$.
+Therefore, in order to actually find possible correlates of Amharic stress, a more encompassing study would have to be run. It would also be good to include different kinds of data, involving syllables that are in different positions in words of different lengths. The data would then optimally be statistically analyzed to look for a correlation of any of the stress manifestations $\{$intensity, pitch, duration$\}$ to any of the factors $\{$position in the word, coda type$\}$.
 
 
-\end{itemize}
+
 
 \section{Conclusion}
 
-\begin{itemize}
-	\item However, this finding does not clearly speak in favor of a moraic analysis of geminates as proposed by \cite{sande-hedding14}
-	\item To the contrary: A moraic analysis of geminates assumes that geminates get their phonetic character as a manifestation of segment-inherent weight. Moraic theory assumes that geminates are associated with a mora underlyingly. The fact that the reduplicated segment manifests as a singleton requires an account in terms of underlying weight to make some special assumptions about 
+The findings in this paper do not clearly speak in favor of a moraic analysis of geminates as proposed by \cite{sande2017}. Potentially they even suggest the contrary: A moraic analysis of geminates assumes that geminates get their phonetic character as a manifestation of segment-inherent weight. Moraic theory assumes that geminates are associated with a mora underlyingly. The fact that the reduplicated segment manifests as a singleton requires an account in terms of underlying weight to make some special assumptions about why the mora that is associated with the segment underlyingly is dissociated from the segement in reduplication contexts. That is certainly not impossible in moraic theory, but requires some additional assumptions about moraic dissociation. It has to be assumed that the consonant is copied without the mora that it is underlyingly associated with. In that case, one might ask why we want to assume this lexical association in the first place, if it has to be reversible by structural operations.
 
-	This is not impossible in moraic theory, but requires some additional assumptions about moraic dissociation and reassociation. It has to be assumed that the consonant is copied without the mora that it is underlyingly associated with. In that case, one might ask why we want to assume this lexical association in the first place, if it has to be reversible by structural operations.
+A weight-by-position/X-grid account of geminates would be able to account for these facts a little more straightforwardly. If underlyingly, geminates are constituted by two adjacent consonants with the same features, which are articulated together on the surface due to OCP effects, it would be expected that phonological processes can target only one of the segments without targeting the other. The Amharic adjectival reduplication facts would straightforwardly follow.
 
-	A weight-by-position/X-grid account of geminates would be able to account for these facts a little more straightforwardly. If underlyingly, geminates are constituted by two adjacent consonants with the same features, which are articulated together on the surface due to OCP effects, it would be expected that phonological processes can target only one of the segments without targeting the other. The Amharic adjectival reduplication facts would straightforwardly follow.
+Both theories would have to be able to account for the fact that Amharic adjective reduplication is only licensed for contexts in which there is a geminate. Based on the fact that reduplication is normally thought of as being relative to metric categories, any theory would have to make an assumption that geminates have some special metric status. It is therefore plausible to assume that geminates contribute some prosoic weight. Given the results presented  here, however, it is arguable if that weight is underlyingly associated with the segment or structurally assigned in the process of prosodic parsing.
 
-	\item Both theories would have to be able to account for the fact that Amharic adjective reduplication is only licensed for contexts in which there is a geminate. Based on the fact that reduplication is normally thought of as being relative to metric categories, any theory would have to make an assumption that geminates have some special metric status. It is therefore plausible to assume that geminates contribute some prosoic weight. Given the results presented  here, however, it is arguable if that weight is underlyingly associated with the segment or structurally assigned in the process of prosodic parsing.
-
-	\item Given that the stress facts aren't as clear as expected, Amharic stress doesn't give us a strong reason to assume that geminates are associated with an underlying mora either. That said, it is really unclear to us at this point what even constitutes stress in Amharic and how it might be phonetically realized. If further phonetic analysis finds clearer results about how phonological stress might be phonetically realized in Amharic, and stress can actually be measured, these results might suggest differently. Given the results in this paper, an analysis of Amharic geminates as being underlyingly distinct from other consonants seems implausible, although not impossible. The reduplication effects, however, are more straightforwardly captured by assuming that Amharic geminates are derived on the surface.
-
-\end{itemize}
+Given that the stress facts aren't as clear as expected, Amharic stress doesn't give us a strong reason to assume that geminates are associated with an underlying mora either. That said, it is really unclear to us at this point what even constitutes stress in Amharic and how it might be phonetically realized. If further phonetic analysis finds clearer results about how phonological stress might be phonetically realized in Amharic, and stress can actually be measured, these results might suggest differently. Given the results in this paper, an analysis of Amharic geminates as being underlyingly distinct from other consonants seems implausible, although not impossible. The reduplication effects, however, are more straightforwardly captured by assuming that Amharic geminates are derived on the surface.
 
 
 
