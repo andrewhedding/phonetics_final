@@ -1,0 +1,72 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 1.6253968253968254 
+tiers? <exists> 
+size = 2 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "Syllable" 
+        xmin = 0 
+        xmax = 1.6253968253968254 
+        intervals: size = 5 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.6931455489997632 
+            text = "  " 
+        intervals [2]:
+            xmin = 0.6931455489997632 
+            xmax = 0.8085550636054881 
+            text = "u" 
+        intervals [3]:
+            xmin = 0.8085550636054881 
+            xmax = 1.0824695901052848 
+            text = "s" 
+        intervals [4]:
+            xmin = 1.0824695901052848 
+            xmax = 1.3651005315919067 
+            text = "u" 
+        intervals [5]:
+            xmin = 1.3651005315919067 
+            xmax = 1.6253968253968254 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "Segment" 
+        xmin = 0 
+        xmax = 1.6253968253968254 
+        intervals: size = 8 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.6931455489997632 
+            text = "" 
+        intervals [2]:
+            xmin = 0.6931455489997632 
+            xmax = 0.7408462980465711 
+            text = "O" 
+        intervals [3]:
+            xmin = 0.7408462980465711 
+            xmax = 0.8075291732182318 
+            text = "V" 
+        intervals [4]:
+            xmin = 0.8075291732182318 
+            xmax = 0.8475388983212283 
+            text = "O" 
+        intervals [5]:
+            xmin = 0.8475388983212283 
+            xmax = 1.003438033907215 
+            text = "V" 
+        intervals [6]:
+            xmin = 1.003438033907215 
+            xmax = 1.1768497126305069 
+            text = "G" 
+        intervals [7]:
+            xmin = 1.1768497126305069 
+            xmax = 1.3651005315919067 
+            text = "C" 
+        intervals [8]:
+            xmin = 1.3651005315919067 
+            xmax = 1.6253968253968254 
+            text = "" 
