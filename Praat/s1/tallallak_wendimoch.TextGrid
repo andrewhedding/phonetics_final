@@ -1,0 +1,154 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 1.5763718820861679 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "wd" 
+        xmin = 0 
+        xmax = 1.5763718820861679 
+        intervals: size = 5 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.024306053552221943 
+            text = "" 
+        intervals [2]:
+            xmin = 0.024306053552221943 
+            xmax = 0.6644039446759517 
+            text = "tallallak" 
+        intervals [3]:
+            xmin = 0.6644039446759517 
+            xmax = 0.7335434381422778 
+            text = "" 
+        intervals [4]:
+            xmin = 0.7335434381422778 
+            xmax = 1.4806960288267708 
+            text = "wendemoch" 
+        intervals [5]:
+            xmin = 1.4806960288267708 
+            xmax = 1.5763718820861679 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "syl" 
+        xmin = 0 
+        xmax = 1.5763718820861679 
+        intervals: size = 8 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.024306053552221943 
+            text = "" 
+        intervals [2]:
+            xmin = 0.024306053552221943 
+            xmax = 0.18042749041166822 
+            text = " " 
+        intervals [3]:
+            xmin = 0.18042749041166822 
+            xmax = 0.6644039446759517 
+            text = "" 
+        intervals [4]:
+            xmin = 0.6644039446759517 
+            xmax = 0.7335434381422778 
+            text = "" 
+        intervals [5]:
+            xmin = 0.7335434381422778 
+            xmax = 0.9476288182465376 
+            text = "wen" 
+        intervals [6]:
+            xmin = 0.9476288182465376 
+            xmax = 1.0506467893736346 
+            text = "de" 
+        intervals [7]:
+            xmin = 1.0506467893736346 
+            xmax = 1.4806960288267708 
+            text = "moch" 
+        intervals [8]:
+            xmin = 1.4806960288267708 
+            xmax = 1.5763718820861679 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "gem" 
+        xmin = 0 
+        xmax = 1.5763718820861679 
+        intervals: size = 19 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.024306053552221943 
+            text = "" 
+        intervals [2]:
+            xmin = 0.024306053552221943 
+            xmax = 0.07560309709175429 
+            text = "t" 
+        intervals [3]:
+            xmin = 0.07560309709175429 
+            xmax = 0.18042749041166822 
+            text = "a" 
+        intervals [4]:
+            xmin = 0.18042749041166822 
+            xmax = 0.22726392146950208 
+            text = "l" 
+        intervals [5]:
+            xmin = 0.22726392146950208 
+            xmax = 0.3191043926635437 
+            text = "a" 
+        intervals [6]:
+            xmin = 0.3191043926635437 
+            xmax = 0.45921577051782225 
+            text = "l" 
+        intervals [7]:
+            xmin = 0.45921577051782225 
+            xmax = 0.5751916950419823 
+            text = "a" 
+        intervals [8]:
+            xmin = 0.5751916950419823 
+            xmax = 0.6644039446759517 
+            text = "k" 
+        intervals [9]:
+            xmin = 0.6644039446759517 
+            xmax = 0.7335434381422778 
+            text = "" 
+        intervals [10]:
+            xmin = 0.7335434381422778 
+            xmax = 0.7713410399410469 
+            text = "w" 
+        intervals [11]:
+            xmin = 0.7713410399410469 
+            xmax = 0.8366800495231839 
+            text = "e" 
+        intervals [12]:
+            xmin = 0.8366800495231839 
+            xmax = 0.9476288182465376 
+            text = "n" 
+        intervals [13]:
+            xmin = 0.9476288182465376 
+            xmax = 0.9699461226537739 
+            text = "d" 
+        intervals [14]:
+            xmin = 0.9699461226537739 
+            xmax = 1.0506467893736346 
+            text = "e" 
+        intervals [15]:
+            xmin = 1.0506467893736346 
+            xmax = 1.1477145152067154 
+            text = "m" 
+        intervals [16]:
+            xmin = 1.1477145152067154 
+            xmax = 1.1976280459273656 
+            text = "o" 
+        intervals [17]:
+            xmin = 1.1976280459273656 
+            xmax = 1.3668112525958622 
+            text = "." 
+        intervals [18]:
+            xmin = 1.3668112525958622 
+            xmax = 1.4806960288267708 
+            text = "ch" 
+        intervals [19]:
+            xmin = 1.4806960288267708 
+            xmax = 1.5763718820861679 
+            text = "" 

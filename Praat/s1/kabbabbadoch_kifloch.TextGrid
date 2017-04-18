@@ -1,0 +1,146 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 2.1991609977324265 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "wd" 
+        xmin = 0 
+        xmax = 2.1991609977324265 
+        intervals: size = 4 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.1860563570388183 
+            text = "kababbadoch" 
+        intervals [2]:
+            xmin = 1.1860563570388183 
+            xmax = 1.3782275959502837 
+            text = "" 
+        intervals [3]:
+            xmin = 1.3782275959502837 
+            xmax = 2.053068153654098 
+            text = "kifloch" 
+        intervals [4]:
+            xmin = 2.053068153654098 
+            xmax = 2.1991609977324265 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "syl" 
+        xmin = 0 
+        xmax = 2.1991609977324265 
+        intervals: size = 8 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.15900090197002353 
+            text = "ka" 
+        intervals [2]:
+            xmin = 0.15900090197002353 
+            xmax = 0.42680260582953045 
+            text = "bab" 
+        intervals [3]:
+            xmin = 0.42680260582953045 
+            xmax = 0.6502450939223426 
+            text = "ba" 
+        intervals [4]:
+            xmin = 0.6502450939223426 
+            xmax = 1.1860563570388183 
+            text = "doch" 
+        intervals [5]:
+            xmin = 1.1860563570388183 
+            xmax = 1.3782275959502837 
+            text = "" 
+        intervals [6]:
+            xmin = 1.3782275959502837 
+            xmax = 1.5471971706849046 
+            text = "kif" 
+        intervals [7]:
+            xmin = 1.5471971706849046 
+            xmax = 2.053068153654098 
+            text = "loch" 
+        intervals [8]:
+            xmin = 2.053068153654098 
+            xmax = 2.1991609977324265 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "gem" 
+        xmin = 0 
+        xmax = 2.1991609977324265 
+        intervals: size = 18 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.09782581453634086 
+            text = "-,o,-" 
+        intervals [2]:
+            xmin = 0.09782581453634086 
+            xmax = 0.1589395505037458 
+            text = "V" 
+        intervals [3]:
+            xmin = 0.1589395505037458 
+            xmax = 0.2213768687266883 
+            text = "-,o,+" 
+        intervals [4]:
+            xmin = 0.2213768687266883 
+            xmax = 0.3694345302752106 
+            text = "V" 
+        intervals [5]:
+            xmin = 0.3694345302752106 
+            xmax = 0.42680260582953045 
+            text = "" 
+        intervals [6]:
+            xmin = 0.42680260582953045 
+            xmax = 0.4793787399218947 
+            text = "" 
+        intervals [7]:
+            xmin = 0.4793787399218947 
+            xmax = 0.6502450939223426 
+            text = "V" 
+        intervals [8]:
+            xmin = 0.6502450939223426 
+            xmax = 0.7152902509317065 
+            text = "-,o,-" 
+        intervals [9]:
+            xmin = 0.7152902509317065 
+            xmax = 0.9662535568902851 
+            text = "V" 
+        intervals [10]:
+            xmin = 0.9662535568902851 
+            xmax = 1.1860563570388183 
+            text = "-,c,-" 
+        intervals [11]:
+            xmin = 1.1860563570388183 
+            xmax = 1.3782275959502837 
+            text = "" 
+        intervals [12]:
+            xmin = 1.3782275959502837 
+            xmax = 1.414828756049056 
+            text = "-,o,-" 
+        intervals [13]:
+            xmin = 1.414828756049056 
+            xmax = 1.473286434254386 
+            text = "V" 
+        intervals [14]:
+            xmin = 1.473286434254386 
+            xmax = 1.5471971706849046 
+            text = "-,c,-" 
+        intervals [15]:
+            xmin = 1.5471971706849046 
+            xmax = 1.6517438250467973 
+            text = "-,o,-" 
+        intervals [16]:
+            xmin = 1.6517438250467973 
+            xmax = 1.8972540521855226 
+            text = "V" 
+        intervals [17]:
+            xmin = 1.8972540521855226 
+            xmax = 2.053068153654098 
+            text = "-,c,-" 
+        intervals [18]:
+            xmin = 2.053068153654098 
+            xmax = 2.1991609977324265 
+            text = "" 

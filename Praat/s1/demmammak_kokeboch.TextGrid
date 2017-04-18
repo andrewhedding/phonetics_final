@@ -1,0 +1,158 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 2.3997052154195013 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "wd" 
+        xmin = 0 
+        xmax = 2.3997052154195013 
+        intervals: size = 5 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.08154616509434942 
+            text = "" 
+        intervals [2]:
+            xmin = 0.08154616509434942 
+            xmax = 0.8717957514173899 
+            text = "demmammak" 
+        intervals [3]:
+            xmin = 0.8717957514173899 
+            xmax = 1.2803872775537182 
+            text = "" 
+        intervals [4]:
+            xmin = 1.2803872775537182 
+            xmax = 2.2002384944471975 
+            text = "kokeboch" 
+        intervals [5]:
+            xmin = 2.2002384944471975 
+            xmax = 2.3997052154195013 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "syl" 
+        xmin = 0 
+        xmax = 2.3997052154195013 
+        intervals: size = 9 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.08154616509434942 
+            text = "" 
+        intervals [2]:
+            xmin = 0.08154616509434942 
+            xmax = 0.2437274841560556 
+            text = "" 
+        intervals [3]:
+            xmin = 0.2437274841560556 
+            xmax = 0.49767475105984427 
+            text = "" 
+        intervals [4]:
+            xmin = 0.49767475105984427 
+            xmax = 0.8717957514173899 
+            text = "" 
+        intervals [5]:
+            xmin = 0.8717957514173899 
+            xmax = 1.2803872775537182 
+            text = "" 
+        intervals [6]:
+            xmin = 1.2803872775537182 
+            xmax = 1.4914016697790495 
+            text = "ko" 
+        intervals [7]:
+            xmin = 1.4914016697790495 
+            xmax = 1.6351601639561184 
+            text = "ke" 
+        intervals [8]:
+            xmin = 1.6351601639561184 
+            xmax = 2.2002384944471975 
+            text = "boch" 
+        intervals [9]:
+            xmin = 2.2002384944471975 
+            xmax = 2.3997052154195013 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "gem" 
+        xmin = 0 
+        xmax = 2.3997052154195013 
+        intervals: size = 19 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.08154616509434942 
+            text = "" 
+        intervals [2]:
+            xmin = 0.08154616509434942 
+            xmax = 0.10092761234596763 
+            text = "d" 
+        intervals [3]:
+            xmin = 0.10092761234596763 
+            xmax = 0.1877014885857052 
+            text = "a" 
+        intervals [4]:
+            xmin = 0.1877014885857052 
+            xmax = 0.3000204755852756 
+            text = "m" 
+        intervals [5]:
+            xmin = 0.3000204755852756 
+            xmax = 0.42088189804844894 
+            text = "a" 
+        intervals [6]:
+            xmin = 0.42088189804844894 
+            xmax = 0.5820819606668663 
+            text = "m " 
+        intervals [7]:
+            xmin = 0.5820819606668663 
+            xmax = 0.7563053490129903 
+            text = "a" 
+        intervals [8]:
+            xmin = 0.7563053490129903 
+            xmax = 0.8439510338202854 
+            text = "." 
+        intervals [9]:
+            xmin = 0.8439510338202854 
+            xmax = 0.8717957514173899 
+            text = "k" 
+        intervals [10]:
+            xmin = 0.8717957514173899 
+            xmax = 1.2803872775537182 
+            text = "" 
+        intervals [11]:
+            xmin = 1.2803872775537182 
+            xmax = 1.3347870463094955 
+            text = "k" 
+        intervals [12]:
+            xmin = 1.3347870463094955 
+            xmax = 1.4914016697790495 
+            text = "o" 
+        intervals [13]:
+            xmin = 1.4914016697790495 
+            xmax = 1.5454759657539103 
+            text = "k" 
+        intervals [14]:
+            xmin = 1.5454759657539103 
+            xmax = 1.6351601639561184 
+            text = "e" 
+        intervals [15]:
+            xmin = 1.6351601639561184 
+            xmax = 1.7424726339512784 
+            text = "b" 
+        intervals [16]:
+            xmin = 1.7424726339512784 
+            xmax = 1.8682480389737248 
+            text = "o" 
+        intervals [17]:
+            xmin = 1.8682480389737248 
+            xmax = 2.0102226623391477 
+            text = "t" 
+        intervals [18]:
+            xmin = 2.0102226623391477 
+            xmax = 2.2002384944471975 
+            text = "ch" 
+        intervals [19]:
+            xmin = 2.2002384944471975 
+            xmax = 2.3997052154195013 
+            text = "" 

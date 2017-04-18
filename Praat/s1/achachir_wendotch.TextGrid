@@ -1,0 +1,134 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 1.726031746031746 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "wd" 
+        xmin = 0 
+        xmax = 1.726031746031746 
+        intervals: size = 4 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.025596466593446176 
+            text = "  " 
+        intervals [2]:
+            xmin = 0.025596466593446176 
+            xmax = 0.8387985200230597 
+            text = "achachchir" 
+        intervals [3]:
+            xmin = 0.8387985200230597 
+            xmax = 0.8904508578850485 
+            text = " " 
+        intervals [4]:
+            xmin = 0.8904508578850485 
+            xmax = 1.726031746031746 
+            text = "wendotch" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "syl" 
+        xmin = 0 
+        xmax = 1.726031746031746 
+        intervals: size = 7 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.025596466593446176 
+            text = "" 
+        intervals [2]:
+            xmin = 0.025596466593446176 
+            xmax = 0.2117093988263212 
+            text = " a" 
+        intervals [3]:
+            xmin = 0.2117093988263212 
+            xmax = 0.5135966153364055 
+            text = "chach" 
+        intervals [4]:
+            xmin = 0.5135966153364055 
+            xmax = 0.8387985200230597 
+            text = "chir" 
+        intervals [5]:
+            xmin = 0.8387985200230597 
+            xmax = 0.8904508578850485 
+            text = "" 
+        intervals [6]:
+            xmin = 0.8904508578850485 
+            xmax = 1.2367668822869602 
+            text = "wen" 
+        intervals [7]:
+            xmin = 1.2367668822869602 
+            xmax = 1.726031746031746 
+            text = "dotch " 
+    item [3]:
+        class = "IntervalTier" 
+        name = "gem" 
+        xmin = 0 
+        xmax = 1.726031746031746 
+        intervals: size = 16 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.025596466593446176 
+            text = "" 
+        intervals [2]:
+            xmin = 0.025596466593446176 
+            xmax = 0.21161528942468577 
+            text = "V" 
+        intervals [3]:
+            xmin = 0.21161528942468577 
+            xmax = 0.25214776798000527 
+            text = "-,o,+" 
+        intervals [4]:
+            xmin = 0.25214776798000527 
+            xmax = 0.4550391356398607 
+            text = "V" 
+        intervals [5]:
+            xmin = 0.4550391356398607 
+            xmax = 0.5135966153364055 
+            text = "." 
+        intervals [6]:
+            xmin = 0.5135966153364055 
+            xmax = 0.6010449442102429 
+            text = "+" 
+        intervals [7]:
+            xmin = 0.6010449442102429 
+            xmax = 0.7368202541182644 
+            text = "V" 
+        intervals [8]:
+            xmin = 0.7368202541182644 
+            xmax = 0.8387985200230597 
+            text = "-" 
+        intervals [9]:
+            xmin = 0.8387985200230597 
+            xmax = 0.8904508578850485 
+            text = "" 
+        intervals [10]:
+            xmin = 0.8904508578850485 
+            xmax = 1.0089985413573686 
+            text = "-,o,-" 
+        intervals [11]:
+            xmin = 1.0089985413573686 
+            xmax = 1.1057685250175748 
+            text = "V" 
+        intervals [12]:
+            xmin = 1.1057685250175748 
+            xmax = 1.2367668822869602 
+            text = "-,c,-" 
+        intervals [13]:
+            xmin = 1.2367668822869602 
+            xmax = 1.281401591007274 
+            text = "-,o,-" 
+        intervals [14]:
+            xmin = 1.281401591007274 
+            xmax = 1.3999928204204455 
+            text = "V" 
+        intervals [15]:
+            xmin = 1.3999928204204455 
+            xmax = 1.49042063815968 
+            text = "." 
+        intervals [16]:
+            xmin = 1.49042063815968 
+            xmax = 1.726031746031746 
+            text = "-,c,-" 

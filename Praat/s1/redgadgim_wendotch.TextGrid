@@ -1,0 +1,138 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 1.8344897959183672 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "wd" 
+        xmin = 0 
+        xmax = 1.8344897959183672 
+        intervals: size = 4 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.04486681623078377 
+            text = "" 
+        intervals [2]:
+            xmin = 0.04486681623078377 
+            xmax = 0.9293266418629147 
+            text = "redgadgdgim" 
+        intervals [3]:
+            xmin = 0.9293266418629147 
+            xmax = 1.6689432629092007 
+            text = "wendoch" 
+        intervals [4]:
+            xmin = 1.6689432629092007 
+            xmax = 1.8344897959183672 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "syl" 
+        xmin = 0 
+        xmax = 1.8344897959183672 
+        intervals: size = 7 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.04486681623078377 
+            text = "" 
+        intervals [2]:
+            xmin = 0.04486681623078377 
+            xmax = 0.3088166739208511 
+            text = "re" 
+        intervals [3]:
+            xmin = 0.3088166739208511 
+            xmax = 0.6091624145875801 
+            text = "dgadg" 
+        intervals [4]:
+            xmin = 0.6091624145875801 
+            xmax = 0.9293266418629147 
+            text = "dgim" 
+        intervals [5]:
+            xmin = 0.9293266418629147 
+            xmax = 1.2858443839647713 
+            text = "wen" 
+        intervals [6]:
+            xmin = 1.2858443839647713 
+            xmax = 1.6689432629092007 
+            text = "doch" 
+        intervals [7]:
+            xmin = 1.6689432629092007 
+            xmax = 1.8344897959183672 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "gem" 
+        xmin = 0 
+        xmax = 1.8344897959183672 
+        intervals: size = 17 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.04486681623078377 
+            text = "" 
+        intervals [2]:
+            xmin = 0.04486681623078377 
+            xmax = 0.15094092677610763 
+            text = "-,o,-" 
+        intervals [3]:
+            xmin = 0.15094092677610763 
+            xmax = 0.3088166739208511 
+            text = "V" 
+        intervals [4]:
+            xmin = 0.3088166739208511 
+            xmax = 0.34216912711620334 
+            text = "-,o,+" 
+        intervals [5]:
+            xmin = 0.34216912711620334 
+            xmax = 0.5528857518657715 
+            text = "V" 
+        intervals [6]:
+            xmin = 0.5528857518657715 
+            xmax = 0.6091624145875801 
+            text = "." 
+        intervals [7]:
+            xmin = 0.6091624145875801 
+            xmax = 0.6665913854502694 
+            text = "+" 
+        intervals [8]:
+            xmin = 0.6665913854502694 
+            xmax = 0.765533289915118 
+            text = "V" 
+        intervals [9]:
+            xmin = 0.765533289915118 
+            xmax = 0.9293266418629147 
+            text = "-,c,-" 
+        intervals [10]:
+            xmin = 0.9293266418629147 
+            xmax = 1.0485721444645566 
+            text = "-,o,-" 
+        intervals [11]:
+            xmin = 1.0485721444645566 
+            xmax = 1.1215922760318988 
+            text = "V" 
+        intervals [12]:
+            xmin = 1.1215922760318988 
+            xmax = 1.2858443839647713 
+            text = "-,c,-" 
+        intervals [13]:
+            xmin = 1.2858443839647713 
+            xmax = 1.3090553399273819 
+            text = "-,o,-" 
+        intervals [14]:
+            xmin = 1.3090553399273819 
+            xmax = 1.4085461394657515 
+            text = "V" 
+        intervals [15]:
+            xmin = 1.4085461394657515 
+            xmax = 1.5468797593936436 
+            text = "." 
+        intervals [16]:
+            xmin = 1.5468797593936436 
+            xmax = 1.6689432629092007 
+            text = "ch" 
+        intervals [17]:
+            xmin = 1.6689432629092007 
+            xmax = 1.8344897959183672 
+            text = "" 

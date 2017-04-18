@@ -1,0 +1,72 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 0.9638321995464852 
+tiers? <exists> 
+size = 2 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "Syllable" 
+        xmin = 0 
+        xmax = 0.9638321995464852 
+        intervals: size = 4 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.04211272908352804 
+            text = "" 
+        intervals [2]:
+            xmin = 0.04211272908352804 
+            xmax = 0.2220097010492644 
+            text = "u" 
+        intervals [3]:
+            xmin = 0.2220097010492644 
+            xmax = 0.5211753837105165 
+            text = "s" 
+        intervals [4]:
+            xmin = 0.5211753837105165 
+            xmax = 0.9638321995464852 
+            text = "u" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "Segment" 
+        xmin = 0 
+        xmax = 0.9638321995464852 
+        intervals: size = 9 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.04211272908352804 
+            text = "" 
+        intervals [2]:
+            xmin = 0.04211272908352804 
+            xmax = 0.10870442588852437 
+            text = "w" 
+        intervals [3]:
+            xmin = 0.10870442588852437 
+            xmax = 0.2220097010492644 
+            text = "u" 
+        intervals [4]:
+            xmin = 0.2220097010492644 
+            xmax = 0.3035099866912002 
+            text = "f" 
+        intervals [5]:
+            xmin = 0.3035099866912002 
+            xmax = 0.47148008758738497 
+            text = "a" 
+        intervals [6]:
+            xmin = 0.47148008758738497 
+            xmax = 0.5698767739111855 
+            text = "ff" 
+        intervals [7]:
+            xmin = 0.5698767739111855 
+            xmax = 0.6295111292589434 
+            text = "r" 
+        intervals [8]:
+            xmin = 0.6295111292589434 
+            xmax = 0.7398346866522956 
+            text = "a" 
+        intervals [9]:
+            xmin = 0.7398346866522956 
+            xmax = 0.9638321995464852 
+            text = "m" 

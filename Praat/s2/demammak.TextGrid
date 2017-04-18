@@ -1,0 +1,76 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 0.8475283446712019 
+tiers? <exists> 
+size = 2 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "Syllable" 
+        xmin = 0 
+        xmax = 0.8475283446712019 
+        intervals: size = 5 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.02479543991564422 
+            text = "" 
+        intervals [2]:
+            xmin = 0.02479543991564422 
+            xmax = 0.12530234950665192 
+            text = "u" 
+        intervals [3]:
+            xmin = 0.12530234950665192 
+            xmax = 0.3437145831354711 
+            text = "s" 
+        intervals [4]:
+            xmin = 0.3437145831354711 
+            xmax = 0.642694440618622 
+            text = "u" 
+        intervals [5]:
+            xmin = 0.642694440618622 
+            xmax = 0.8475283446712019 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "Segment" 
+        xmin = 0 
+        xmax = 0.8475283446712019 
+        intervals: size = 9 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.02479543991564422 
+            text = "" 
+        intervals [2]:
+            xmin = 0.02479543991564422 
+            xmax = 0.04664476808760242 
+            text = "O" 
+        intervals [3]:
+            xmin = 0.04664476808760242 
+            xmax = 0.12530234950665192 
+            text = "V" 
+        intervals [4]:
+            xmin = 0.12530234950665192 
+            xmax = 0.17774073711935162 
+            text = "O" 
+        intervals [5]:
+            xmin = 0.17774073711935162 
+            xmax = 0.2948531361210476 
+            text = "V" 
+        intervals [6]:
+            xmin = 0.2948531361210476 
+            xmax = 0.39418653121269454 
+            text = "G" 
+        intervals [7]:
+            xmin = 0.39418653121269454 
+            xmax = 0.5989957842747057 
+            text = "V" 
+        intervals [8]:
+            xmin = 0.5989957842747057 
+            xmax = 0.642694440618622 
+            text = "C" 
+        intervals [9]:
+            xmin = 0.642694440618622 
+            xmax = 0.8475283446712019 
+            text = "" 
